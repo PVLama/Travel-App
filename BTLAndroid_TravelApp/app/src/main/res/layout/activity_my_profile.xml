@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    tools:context=".activity.MyProfileActivity"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/myprof_btnBack"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/general_back_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:transitionName="transition_mypro_back"
+            android:onClick="callMenu"
+            />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myprof_btnBack">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/profile_tentaikhoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/ubuntu"
+                android:text="Your Name"
+                android:textColor="@color/black"
+                android:textSize="27sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <TextView
+                android:id="@+id/tv_caidat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="Cài đặt tài khoản"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/ubuntu"
+                android:text="Yêu thích"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_outline_favorite_border_24"
+                />
+            <TextView
+                android:id="@+id/profile_thongtincanhan"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="Thông tin cá nhân"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/ubuntu"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:drawableStart="@drawable/ic_baseline_person_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="Bản dịch"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/ubuntu"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:drawableStart="@drawable/ic_baseline_g_translate_24"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="Thông báo"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/ubuntu"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:drawableStart="@drawable/ic_baseline_notifications_none_24"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="Hỗ trợ"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_baseline_password"
+                android:fontFamily="@font/ubuntu"
+                android:text="Quyền riêng tư và chia sẻ"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_baseline_health_and_safety_24"
+                android:fontFamily="@font/ubuntu"
+                android:text="Trung tâm an toàn"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_baseline_headset_mic_24"
+                android:fontFamily="@font/ubuntu"
+                android:text="Liên hệ hỗ trợ"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

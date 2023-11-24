@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    android:padding="30sp"
+
+    tools:context=".activity.LoginSignup.StartUpScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/muli_black"
+            android:text="Sign In For The Best Experience"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="Đăng kí để được hưởng ưu đãi"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp">
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="10sp"
+                android:layout_weight="1"
+                android:onClick="callLoginScreen"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:transitionName="transition_login"
+                 />
+
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="15sp"
+                android:layout_weight="1"
+                android:onClick="callSignupScreen"
+                android:text="Sign Up"
+                android:textColor="@color/white"
+                android:transitionName="transition_signup" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

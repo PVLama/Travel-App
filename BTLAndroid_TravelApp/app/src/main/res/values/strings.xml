@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BTLAndroid_TravelApp</string>
+    <string name="home">Home</string>
+    <string name="myprofile">My Profile</string>
+    <string name="all_place">All Places</string>
+    <string name="add_places">Add Missing Places</string>
+
+    <string name="login">Login</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="restaurants">Restaurants</string>
+    <string name="scenical">Scenic Spots</string>
+    <string name="bank">Bank</string>
+
+    <string name="share">Share</string>
+    <string name="rateus">Rate Us</string>
+
+    <string name="retailer_heading">Grow\nYour Business</string>
+    <string name="Email">
+        <u>Email</u>
+    </string>
+
+</resources>

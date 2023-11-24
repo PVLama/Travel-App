@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "189468948990",
+    "firebase_url": "https://btlandroid-travelapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "btlandroid-travelapp",
+    "storage_bucket": "btlandroid-travelapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189468948990:android:9fab455c8c140c6f71a8af",
+        "android_client_info": {
+          "package_name": "com.example.btlandroid_travelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189468948990-ts8gu5jfiukhgjdv98lt58bpgon08b8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdfD5HtbqTQCpdimaHHQyKoQlj5gZ-leQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189468948990-ts8gu5jfiukhgjdv98lt58bpgon08b8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
